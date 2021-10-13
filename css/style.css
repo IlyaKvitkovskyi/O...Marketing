@@ -94,6 +94,7 @@ font-family: 'Raleway', sans-serif; */
   left: 0;
 }
 
+/* Header */
 .header__top-inner {
   padding-bottom: 29px;
   display: flex;
@@ -164,6 +165,7 @@ font-family: 'Raleway', sans-serif; */
   margin-bottom: 62px;
 }
 
+/* About */
 .about {
   background-color: #f6f8fa;
   padding: 150px 0 144px;
@@ -183,6 +185,7 @@ font-family: 'Raleway', sans-serif; */
   margin-bottom: 16px;
 }
 
+/* Expertise */
 .expertise {
   padding: 140px 0 160px;
 }
@@ -282,6 +285,7 @@ font-family: 'Raleway', sans-serif; */
   color: #777;
 }
 
+/* Magic */
 .magic {
   background-color: #f6f8fa;
   background-image: url(../img/magic-bg.jpg);
@@ -304,6 +308,7 @@ font-family: 'Raleway', sans-serif; */
   margin-bottom: 25px;
 }
 
+/* Portfolio */
 .portfolio {
   padding: 140px 0 165px;
 }
@@ -451,6 +456,7 @@ font-family: 'Raleway', sans-serif; */
   display: block;
 }
 
+/* Slider Blog */
 .slider__blog {
   background-color: #f8f6fa;
   padding: 115px 0;
@@ -519,6 +525,7 @@ font-family: 'Raleway', sans-serif; */
   right: -95px;
 }
 
+/* Team */
 .team {
   padding: 120px 0 130px;
 }
@@ -549,6 +556,7 @@ font-family: 'Raleway', sans-serif; */
   line-height: 16px;
 }
 
+/* Pricing */
 .pricing {
   background-color: #f6f8fa;
   padding: 145px 0 160px;
@@ -606,6 +614,7 @@ ul.pricing__item {
   color: #242121;
 }
 
+/* Clients */
 .clients {
   padding: 70px 0 95px;
 }
@@ -616,6 +625,7 @@ ul.pricing__item {
   align-items: center;
 }
 
+/* Connection */
 .connection {
   padding: 145px 0 160px;
   background-image: url('../img/map.jpg');
@@ -671,4 +681,64 @@ ul.pricing__item {
   background-color: #242121;
   cursor: pointer;
   margin-top: 40px;
+}
+
+.footer__top {
+  padding: 110px 10px 60px;
+  background-color: #333;
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #fcbb08;
+  margin-bottom: 70px;
+}
+
+ul.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+/* Footer */
+.footer__social-list {
+  padding: 0 15px;
+}
+
+.footer__social-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer__contacts {
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.footer__contacts a {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.go-top {
+  display: inline-block;
+}
+
+.footer__copy {
+  padding: 40px 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ccc;
+  background-color: #2a2c2b;
 }
