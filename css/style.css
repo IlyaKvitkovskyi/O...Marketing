@@ -747,6 +747,24 @@ ul.footer__social {
   background: #2a2c2b;
 }
 
+@media (max-width: 1200px) {
+  .about__inner {
+    display: block;
+  }
+
+  .about__title {
+    margin-bottom: 50px;
+  }
+
+  .about {
+    padding: 75px 0;
+  }
+
+  .about__text p {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .menu__list {
     display: block;
@@ -821,6 +839,11 @@ ul.footer__social {
     font-size: 14px;
     line-height: 16px;
   }
+
+  .title {
+    font-size: 48px;
+    line-height: 60px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -832,5 +855,11 @@ ul.footer__social {
   .header__subtitle {
     font-size: 12px;
     line-height: 14px;
+  }
+
+  .about__title,
+  .title {
+    font-size: 28px;
+    line-height: 42px;
   }
 }
