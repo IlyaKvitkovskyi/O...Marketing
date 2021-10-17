@@ -754,6 +754,22 @@ ul.footer__social {
   .magic__inner {
     padding: 50px 0;
   }
+
+  .slick-prev {
+    left: 0;
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  .slider__blog-item {
+    padding: 120px 60px;
+  }
+
+  ul.slick-dots {
+    margin-left: 60px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -768,7 +784,8 @@ ul.footer__social {
 
   .about,
   .expertise,
-  .portfolio {
+  .portfolio,
+  .slider__blog {
     padding: 75px 0;
   }
 
@@ -947,6 +964,19 @@ ul.footer__social {
   .portfolio__numbers-item {
     width: 50%;
     margin-bottom: 40px;
+  }
+
+  .slider__blog-item {
+    padding: 40px 0px;
+  }
+
+  ul.slick-dots {
+    margin-left: 0px;
+  }
+
+  .slider__blog-item-title {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
