@@ -339,6 +339,7 @@ font-family: 'Raleway', sans-serif; */
 }
 
 .portfolio__btn {
+  cursor: pointer;
   background-color: transparent;
   border: none;
   font-weight: 600;
@@ -665,7 +666,7 @@ ul.pricing__item {
   border: none;
   border-bottom: 2px solid #373a39;
   width: 100%;
-  padding: 16px 0;
+  padding: 16px 10px;
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 700;
@@ -700,6 +701,11 @@ ul.pricing__item {
   margin-top: 40px;
 }
 
+.form button:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
 .footer__top {
   padding: 110px 10px 60px;
   background-color: #333;
@@ -732,6 +738,11 @@ ul.footer__social {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.footer__social-link:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
 }
 
 .footer__contacts {
@@ -872,6 +883,32 @@ ul.footer__social {
 
   .portfolio__filter-btn {
     margin-top: 40px;
+  }
+
+  .connection {
+    background-image: none;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  .footer__top {
+    padding-top: 75px;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  ul.footer__social {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .footer__social-list {
+    width: 33.333%;
+    margin-bottom: 25px;
   }
 }
 
@@ -1056,6 +1093,10 @@ ul.footer__social {
 
   .portfolio__numbers-item {
     width: 100%;
+  }
+
+  .footer__social-list {
+    width: 50%;
   }
 }
 
